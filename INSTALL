@@ -1,0 +1,33 @@
+REQUERIMIENTOS DEL SISTEMA ( Kali GNU/Linux Rolling 64-bit (Debian)
+	- Qt Creator 4.4.1 && Development Libraries
+	- OpenGL
+	- Google Protobuf
+  - eigen
+  
+  INSTALACION:
+	      1. Instalar los siguientes paquetes Open GL
+              sudo apt-get install build-essential libgl1-mesa-dev
+              
+        2. Instalar paquetes de libreria GLUT
+              sudo apt-get install freeglut3-dev
+              
+        3. Instalar paquetes de Eigen 3.3.4
+              descarga la libreria con:
+                    -hg clone https://bitbucket.org/eigen/eigen/
+              instrucciones de instalación desde la carpeta eigen:                 
+                    -mkdir build && cd build
+                    -cmake ..
+                    -sudo make install                            	                               
+	      4. Instalar libreria protobuff
+              descarga desde github ( Protocol Buffers v3.4.1)
+                    -git clone https://github.com/google/protobuf.git
+              seguir instrucciones instalacion c++
+                     https://github.com/google/protobuf/blob/master/src/README.md
+
+
+Abrir el proyecto desde Qt y cambiar la ruta de compilacion a ruta donde se encuentra la carpeta del proyecto.
+                   
+                      
+                    
+
+          
