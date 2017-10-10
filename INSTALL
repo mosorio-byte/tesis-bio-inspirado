@@ -5,7 +5,7 @@ REQUERIMIENTOS DEL SISTEMA ( Kali GNU/Linux Rolling 64-bit (Debian)
   - eigen
   
   INSTALACION:
-	 1. Instalar los siguientes paquetes Open GL
+	1. Instalar los siguientes paquetes Open GL
               sudo apt-get install build-essential libgl1-mesa-dev
               
         2. Instalar paquetes de libreria GLUT
